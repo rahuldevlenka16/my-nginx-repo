@@ -39,7 +39,8 @@ kubectl commands:
 
 
 cleaning:
-kubectl delete deployments <deplyoment-name>
-kubectl delete deployments --all
-kubectl delete service <service-name>
-kubectl delete service --all
+
+    kubectl delete deployments <deplyoment-name>
+    kubectl delete deployments --all
+    kubectl delete service <service-name>
+    kubectl delete service --all
